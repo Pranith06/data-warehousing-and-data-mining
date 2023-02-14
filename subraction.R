@@ -1,6 +1,4 @@
-names<-c("ram","shyam","kumar")
-age<-c(23,24,25)
-marks<-c(88,78,25)
-df<-data.frame(names,age,marks)
-summary(df $age)
-write.csv(df,"datafr.csv")
+num1 = as.integer(readline(prompt= "enter a number1: "))
+num2 = as.integer(readline(prompt= "enter a number2: "))
+num3 = num1 - num2
+print(num3)
